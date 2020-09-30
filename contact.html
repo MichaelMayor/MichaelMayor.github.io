@@ -10,7 +10,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/style.css">
 
-    <title>Michael Mayor</title>
+    <title>Michael Mayor Contact</title>
   </head>
 
   <body>
@@ -21,44 +21,69 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <span class="navbar-text d-none d-lg-block">About Me</span>
+        <span class="navbar-text d-none d-lg-block">Contact</span>
         <!--NAvigation Buttons-->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
             </li>
 
-            <li class="nav-item ml-auto">
+            <li class="nav-item active">
               <a class="nav-link" href="./contact.html">Contact</a>
             </li>
 
-            <li class="nav-item ml-auto">
+            <li class="nav-item">
               <a class="nav-link" href="./portfolio.html">Portfolio</a>
             </li>
           </ul>
         </div>
     </nav>
-
+    <!--Title-->
     <div class="container">
-        <!--title-->
         <section class="row border gray title">
-            <p class="display-1">About Me</p>
+            <p class="display-1">Contact Information</p>
         </section>
-
+        
         <div class="row">
-            <!--Profile Picture-->
-            <figure class="col">
-                <img src="assets/img/headshot.jpg" alt="Michael Mayor">
-            </figure>
-            <!--Bio-->
-            <div class="col-10 col-md-8">
-            <p>My name is Michael Mayor. I am a Biomedical Engineer and Web Developer currently located in Vernon, CT. I am proficient in Matlab, Javascript, HTML, and CSS. 
-              I graduated from the University of Rochester in 2015 with a BS in Biomedical Engineering with a focus in Biosystems and Signals. I am currently employed as a Surgical Technician by surgical supply company OR Specialties.
-            If you would like to learn more than is present in this page, please visit the contact page to ask me any questions you might have!</p>
-            </div>  
+            <!--Contact Links-->
+            <div class="col-sm-12 col-lg-4">
+                <ul class="list-unstyled">
+                    <li><strong>Github:</strong> <a href="https://github.com/MichaelMayor" target="_blank">Github.com/MichaelMayor</a></li>
+                    <li><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/michael-mayor-84707a6a" target="_blank">Michael Mayor</a></li>
+                    <li><strong>Email:</strong> <a href="mailto:michael.davidge.mayor@gmail.com" target="_blank">Michael.Davidge.Mayor@gmail.com</a></li>
+                </ul>   
+            </div>
+            <!--Email Contact Form (Mostly Nonfunctional)-->
+            <div class="col-sm-12 col-lg-8">
+                <div class="col gray border">
+                    <p class="display-4 text-center ">Contact Me</p>
+                </div>
+                <div class="col border">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Name</label>
+                            <input class="form-control" id="exampleFormControlInput1">
+                        </div>
+
+                        <div class="form-group">
+                          <label for="exampleFormControlInput2">Email address</label>
+                          <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                        </div>
+
+                        <div class="form-group">
+                          <label for="exampleFormControlTextarea1">Message</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type your message here..."></textarea>
+                        </div>  
+                    </form>
+                    
+                    <a class="btn btn-secondary" href="mailto:michael.davidge.mayor@gmail.com" role="button" target="_blank">Submit</a>
+                </div>
+            </div>
         </div>
-    </div>  
+    
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

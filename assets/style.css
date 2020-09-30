@@ -1,0 +1,16 @@
+body {
+    background-image: url(./img/Background-website.jpg);
+}
+img {
+    width: 100%;
+}
+.title {
+    margin: 20px 0;
+    padding: 0 20px;
+}
+.gray {
+    background-color: whitesmoke;
+}
+.btn {
+    margin-bottom: 10px;
+}
