@@ -1,4 +1,4 @@
-import {Navbar, Nav} from "react-bootstrap"
+import {Nav} from "react-bootstrap"
 import {AiFillGithub, AiOutlineMail, AiFillLinkedin} from "react-icons/ai"
 export default function Footer() {
     return <nav class="navbar fixed-bottom navbar-light bg-light justify-content-center">

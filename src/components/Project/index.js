@@ -1,6 +1,7 @@
 
 export default function Project(props) {
-    <div class="card" style={{width : "18rem"}}>
+    
+    return <div class="card" style={{width : "18rem"}}>
     <img src={props.screenshot} class="card-img-top" alt={props.title} />
     <div class="card-body">
       <h5 class="card-title">{props.title}</h5>
