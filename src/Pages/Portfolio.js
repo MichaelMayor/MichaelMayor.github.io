@@ -28,5 +28,7 @@ export default function Portfolio () {
             the tasks on a dedicated schedule." screenshot={taskPlannerScreenshot} link="https://bravedown.github.io/task-planner/" github="https://github.com/bravedown/task-planner" />
 
       </div>
+      <br />
+      <br />
   </div>
 }
