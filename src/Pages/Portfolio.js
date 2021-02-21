@@ -1,7 +1,7 @@
 import React from 'react'
 import resume from '../assets/documents/Mayor resume.pdf'
 import Project from '../components/Project'
-import codeQuizScreenshot from '../assets/img/code-quiz-screenshot.png'
+import kittenHelperScreenshot from '../assets/img/foster-kitten-helper.png'
 import taskPlannerScreenshot from '../assets/img/task-planner-screenshot.png'
 import WeatherDashboardScreenshot from '../assets/img/weather-dash-screenshot.png'
 export default function Portfolio () {
@@ -21,9 +21,9 @@ export default function Portfolio () {
       <h1 className="display-4">Projects</h1>
       <div className="d-flex flex-wrap">
           <Project title="Weather Dashboard" description="A weather forecast webapp that uses third party api to search for a city name and display
-            the upcoming weather." screenshot={WeatherDashboardScreenshot} link="https://github.com/MichaelMayor/WeatherDashboard" github="https://michaelmayor.github.io/WeatherDashboard/" />
-          <Project title="Code Quiz" description="An interactive quiz program to test our knowledge of HTML, CSS, and Javascript. The
-            program will then save your score on the quiz and allow you to compare it to past performances." screenshot={codeQuizScreenshot} link="https://michaelmayor.github.io/CodeQuiz/" github="https://github.com/MichaelMayor/CodeQuiz" />
+            the upcoming weather." screenshot={WeatherDashboardScreenshot} link="https://michaelmayor.github.io/WeatherDashboard/" github="https://github.com/MichaelMayor/WeatherDashboard" />
+          <Project title="Foster Kitten Helper" description="Kitten helper is designed to help people fostering kittens keep track of feeding times. It uses Nodemailer and node-cron on the back end to send emails in the web browser at scheduled times. This helps humans keep track of the frequent feeding times and helps cats not be hungry!" 
+            screenshot={kittenHelperScreenshot} link="https://foster-kitten-helper.herokuapp.com/" github="https://github.com/swimmaison/Kitten-Helper" />
           <Project title="Task Planner" description="An interactive webapp that will sort your to-do list by category and time, then displays
             the tasks on a dedicated schedule." screenshot={taskPlannerScreenshot} link="https://bravedown.github.io/task-planner/" github="https://github.com/bravedown/task-planner" />
 
