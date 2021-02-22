@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.983bb98c.chunk.css",
+    "main.js": "/static/js/main.05f3c924.chunk.js",
+    "main.js.map": "/static/js/main.05f3c924.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f5d1bbb6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f5d1bbb6.js.map",
+    "static/css/2.ae9f1eb3.chunk.css": "/static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.01f5b7f3.chunk.js": "/static/js/2.01f5b7f3.chunk.js",
+    "static/js/2.01f5b7f3.chunk.js.map": "/static/js/2.01f5b7f3.chunk.js.map",
+    "static/js/3.8f57ffb8.chunk.js": "/static/js/3.8f57ffb8.chunk.js",
+    "static/js/3.8f57ffb8.chunk.js.map": "/static/js/3.8f57ffb8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ae9f1eb3.chunk.css.map": "/static/css/2.ae9f1eb3.chunk.css.map",
+    "static/css/main.983bb98c.chunk.css.map": "/static/css/main.983bb98c.chunk.css.map",
+    "static/js/2.01f5b7f3.chunk.js.LICENSE.txt": "/static/js/2.01f5b7f3.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/static/media/Background-website.38da2ec7.jpg",
+    "static/media/Mayor resume.d2192d5b.pdf": "/static/media/Mayor resume.d2192d5b.pdf",
+    "static/media/foster-kitten-helper.79700f0b.png": "/static/media/foster-kitten-helper.79700f0b.png",
+    "static/media/headshot.3562d382.jpg": "/static/media/headshot.3562d382.jpg",
+    "static/media/task-planner-screenshot.e4bd13d7.png": "/static/media/task-planner-screenshot.e4bd13d7.png",
+    "static/media/weather-dash-screenshot.edf17b69.png": "/static/media/weather-dash-screenshot.edf17b69.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5d1bbb6.js",
+    "static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.01f5b7f3.chunk.js",
+    "static/css/main.983bb98c.chunk.css",
+    "static/js/main.05f3c924.chunk.js"
+  ]
+}
