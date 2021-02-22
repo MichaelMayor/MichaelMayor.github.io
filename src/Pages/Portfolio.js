@@ -22,7 +22,7 @@ export default function Portfolio () {
       <div className="d-flex flex-wrap">
           <Project title="Weather Dashboard" description="A weather forecast webapp that uses third party api to search for a city name and display
             the upcoming weather." screenshot={WeatherDashboardScreenshot} link="https://michaelmayor.github.io/WeatherDashboard/" github="https://github.com/MichaelMayor/WeatherDashboard" />
-          <Project title="Foster Kitten Helper" description="Kitten helper is designed to help people fostering kittens keep track of feeding times. It uses Nodemailer and node-cron on the back end to send emails in the web browser at scheduled times. This helps humans keep track of the frequent feeding times and helps cats not be hungry!" 
+          <Project title="Foster Kitten Helper" description="Kitten helper is designed to help people fostering kittens keep track of feeding times. It uses Nodemailer and node-cron on the back end to send emails in the web browser at scheduled times. This helps humans keep track of the frequent feeding times and helps cats not be hungry!"
             screenshot={kittenHelperScreenshot} link="https://foster-kitten-helper.herokuapp.com/" github="https://github.com/swimmaison/Kitten-Helper" />
           <Project title="Task Planner" description="An interactive webapp that will sort your to-do list by category and time, then displays
             the tasks on a dedicated schedule." screenshot={taskPlannerScreenshot} link="https://bravedown.github.io/task-planner/" github="https://github.com/bravedown/task-planner" />
