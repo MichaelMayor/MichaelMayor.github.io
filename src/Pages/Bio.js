@@ -35,5 +35,7 @@ export default function Bio () {
               target="_blank" rel="noreferrer">Michael.Davidge.Mayor@gmail.com</a></li>
           <li><strong>Phone Number:</strong> (203) 200-9817</li>
       </ul>
+      <br />
+      <br />
   </div>
 }
